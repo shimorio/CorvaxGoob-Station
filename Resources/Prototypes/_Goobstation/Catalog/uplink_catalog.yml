@@ -753,11 +753,11 @@
     whitelist:
     - HijackShuttleObjective
     - NukeDiskStealObjective
-  saleLimit: 1
   - !type:StoreWhitelistCondition
     blacklist: # Corvaxgoob
       components:
       - SurplusBundle
+  saleLimit: 1
 
 - type: listing
   id: UplinkLubeGrenade
