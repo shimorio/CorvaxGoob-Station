@@ -67,3 +67,22 @@
     - !type:BuyerDepartmentCondition
       whitelist:
       - Engineering
+
+- type: listing
+  id: UplinkSuperDuperSurplusBundle
+  name: uplink-super-duper-surplus-bundle-name
+  description: uplink-super-duper-surplus-bundle-desc
+  productEntity: CrateSyndicateSuperDuperSurplusBundle
+  cost:
+    Telecrystal: 1350
+  categories:
+  - UplinkDisruption
+  conditions:
+  - !type:BuyerWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+  - !type:StoreWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle
