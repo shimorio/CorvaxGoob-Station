@@ -50,6 +50,16 @@
   tileReactions:
   - !type:FlammableTileReaction
     temperatureMultiplier: 2
+  # CorvaxGoob-Start
+  reactiveEffects:
+    Acidic:
+      methods: [ Touch ]
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Structural: 5
+  # CorvaxGoob-End
   metabolisms:
     Poison:
       effects:
@@ -181,7 +191,7 @@
         damage:
           types:
             Heat: 2
-            Caustic: 0.5 # CLF3 is corrosive    
+            Caustic: 0.5 # CLF3 is corrosive
       - !type:FlammableReaction
         multiplier: 0.2
       - !type:AdjustTemperature

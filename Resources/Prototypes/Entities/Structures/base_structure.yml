@@ -53,6 +53,10 @@
     penetrateDamage: 25
     damagePenalty: 0.1
   - type: Structure # WD EDIT. TODO: Kill me pls
+  - type: Reactive # CorvaxGooob
+    groups:
+      Acidic:
+      - Touch
 
 - type: entity
   # This means that it's not anchored on spawn.
