@@ -56,9 +56,10 @@
       methods: [ Touch ]
       effects:
       - !type:HealthChange
+        scaleByQuantity: true
         damage:
           types:
-            Structural: 5
+            Structural: 2.5
   # CorvaxGoob-End
   metabolisms:
     Poison:
